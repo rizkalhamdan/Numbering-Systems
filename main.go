@@ -2,14 +2,21 @@ package main
 
 // import "RIZK/numbering-systems/utils"
 
+
+
 import (
 	"RIZK/numbering-systems/decimal"
+	"RIZK/numbering-systems/utils"
 )
 
 func main() {
-	println(" ## Numbering System ##")
-
 	decimal.Test()
 
-	
+	for {
+		utils.DO("clear")
+
+		println(" ## Number System ##")
+
+		
+	}
 }
