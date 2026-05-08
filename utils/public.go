@@ -46,7 +46,7 @@ func PrintTypes() {
 
 
 
-// ...existing code...
+
 func GetRealNumber(num string) []int {
 
     var new_arr []int
@@ -67,44 +67,3 @@ func GetRealNumber(num string) []int {
     return new_arr
 
 }
-// ...existing code...
-
-
-
-
-
-// func GetRealNumber(num string) []int {
-
-// 	num = strings.ToLower(num)
-// 	arr := strings.Split(num, "")
-// 	var new_arr []int
-
-// 	for _, val := range arr {
-
-// 		switch val {
-// 		case "a":
-// 			new_arr = append(new_arr, 10)
-// 		case "b":
-// 			new_arr = append(new_arr, 11)
-// 		case "c":
-// 			new_arr = append(new_arr, 12)
-// 		case "d":
-// 			new_arr = append(new_arr, 13)
-// 		case "e":
-// 			new_arr = append(new_arr, 14)
-// 		case "f":
-// 			new_arr = append(new_arr, 15)
-// 		default:
-// 			nve, err := strconv.Atoi(val)
-
-// 			if err == nil {
-// 				break
-// 			}
-
-// 			new_arr = append(new_arr, nve)
-// 		}
-// 	}
-
-// 	return new_arr
-
-// }
